@@ -14,3 +14,19 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  --main-bg-color: rgba(37, 50, 54, 0.5);
+  --primary-color: #306a85;
+  --secondary-color: #9B6A37;
+  --footer-color: #08154A;
+  --btn-color: #B3061B;
+  --main-letter-spacing: 0.15rem;
+  --title-font: Times Pro, sans-serif;
+  --main-font: IBM Plex Sans;
+  --lato-font: Lato, sans-serif;
+  --primary-transition: all 0.3s linear;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --primary-radius: 0.5rem;
+ }
