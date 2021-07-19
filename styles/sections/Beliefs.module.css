@@ -1,0 +1,38 @@
+/* .container {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+} */
+
+.bgWrap {
+  background: rgba(61, 90, 128, 0.6);
+  margin: 0;
+  z-index: -1;
+  overflow: hidden;
+  display: none;
+}
+
+.title,
+.details {
+  margin-bottom: 2rem;
+}
+
+.heroBanner {
+  text-align: center;
+  color: white;
+  padding: 0.3rem;
+}
+
+.bText {
+  max-width: 47rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 99px) {
+  .bgWrap {
+    display: inline-block;
+  }
+}

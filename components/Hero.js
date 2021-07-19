@@ -1,10 +1,10 @@
-import styles from '../styles/Home.module.css'
+import styles from '../styles/sections/Hero.module.css'
 import Image from 'next/image'
 import img from '../public/road.jpg'
 
 const Hero = () => {
  return (
-  <section className={styles.hSection}>
+  <>
    <div className={styles.bgWrap}>
     <Image 
       alt="Road"
@@ -22,7 +22,7 @@ const Hero = () => {
     <button className={styles.heroBtn}>Learn More</button>
    </div>
 
-  </section>
+  </>
  )
 }
 

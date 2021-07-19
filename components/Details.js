@@ -1,10 +1,20 @@
-import React from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/sections/Details.module.css'
+import img from '../public/trailers.jpg'
+import Image from 'next/image'
 
 const Details = () => {
  return (
-  <section className={styles.hSection}>
-      <div className="overlay">
+  <>
+    <div className="">
+      <Image
+      alt="Road"
+      src={img}
+      layout="fill"
+      objectFit="cover"
+      quality={5}
+      />
+    </div>
+      {/* <div className="overlay">
     <div className="title">
      <h2>How We Can Help You</h2>
     </div>
@@ -23,8 +33,8 @@ const Details = () => {
        <p>7% dispatching per/week (per truck). You will be billed at the end of the week for every load. Partnering with Factoring company allows us to use factoring invoicing. We help your business upgrade or downgrade as and when needed. Office overhead savings, Dedicated Freight, Trucking Experts, we add value to your bottom line.</p>
       </article>
      </div>
-    </div>
-  </section>
+    </div> */}
+  </>
  )
 }
 

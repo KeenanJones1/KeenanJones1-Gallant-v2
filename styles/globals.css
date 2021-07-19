@@ -16,11 +16,12 @@ a {
 }
 
 :root {
-  --main-bg-color: rgba(37, 50, 54, 0.5);
+  --opacity-bg-color: rgba(37, 50, 54, 0.2);
+  --main-bg-color: rgba(37, 50, 54, 1);
   --primary-color: #306a85;
-  --secondary-color: #9B6A37;
-  --footer-color: #08154A;
-  --btn-color: #B3061B;
+  --secondary-color: #9b6a37;
+  --footer-color: #08154a;
+  --btn-color: #b3061b;
   --main-letter-spacing: 0.15rem;
   --title-font: Times Pro, sans-serif;
   --main-font: IBM Plex Sans;
@@ -29,4 +30,18 @@ a {
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --primary-radius: 0.5rem;
- }
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+p {
+  max-width: 47rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5rem;
+  line-height: 1.5em;
+  font-weight: bolder;
+}

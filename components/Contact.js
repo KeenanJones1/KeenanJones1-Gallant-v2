@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 const Contact = () => {
  return (
-  <section className={styles.hSection}>
+  <>
    <div className="overlay">
     <div className="hero-banner">
      <h1>Hit the Road with Us</h1>
@@ -17,7 +17,7 @@ const Contact = () => {
      </button>
     </div>
    </div>
-  </section>
+  </>
  )
 }
 

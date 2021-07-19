@@ -17,11 +17,21 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <Hero />
-        <Beliefs />
-        <Details />
-        <Testimonials />
-        <Contact />
+        <section className={styles.hSection}>
+          <Hero btnStyling={styles.heroBtn}/>
+        </section>
+        <section className={styles.hSection}>
+          <Beliefs />
+        </section>
+        <section className={styles.hSection}>
+          <Details />
+        </section>
+        <section className={styles.hSection}>
+          <Testimonials />
+        </section>
+        <section className={styles.hSection}>
+          <Contact />
+        </section>
       </main>
 
       <footer className={styles.footer}>

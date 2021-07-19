@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 const Testimonials = () => {
  return (
-  <section className={styles.hSection}>
+  <>
    <div className="overlay">
 
     <div className="title">
@@ -23,7 +23,7 @@ const Testimonials = () => {
      </article>
     </div>
    </div>
-  </section>
+  </>
  )
 }
 
