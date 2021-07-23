@@ -11,7 +11,7 @@ const Hero = () => {
       src={img}
       layout="fill"
       objectFit="cover"
-      quality={100}
+      quality={50}
     />
    </div>
 

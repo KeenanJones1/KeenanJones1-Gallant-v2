@@ -8,7 +8,7 @@
 
 .bgText {
   margin: 0;
-  font-size: 2rem;
+  font-size: 1.4rem;
   line-height: 3rem;
   text-align: center;
   padding-top: 2vh;
@@ -23,7 +23,6 @@
   display: inline-block;
   font-weight: 700;
   transition: var(--primary-transition);
-  font-size: 0.875rem;
   border: 2px solid transparent;
   cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);

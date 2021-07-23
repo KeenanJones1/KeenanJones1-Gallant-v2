@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Details = () => {
  return (
   <>
-    <div className="">
+    <div className={styles.bgWrap}>
       <Image
       alt="Road"
       src={img}

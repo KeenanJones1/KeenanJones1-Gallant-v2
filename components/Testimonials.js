@@ -1,10 +1,21 @@
 import React from 'react'
-import styles from '../styles/Home.module.css'
+import styles from '../styles/sections/Testimonials.module.css'
+import img from '../public/ship.jpg'
+import Image from 'next/image'
 
 const Testimonials = () => {
  return (
   <>
-   <div className="overlay">
+  <div className={styles.bgWrap}>
+   <Image 
+    alt="trailers"
+    src={img}
+    layout="fill"
+    objectFit="cover"
+    quality={60}
+   />
+  </div>
+   {/* <div className="overlay">
 
     <div className="title">
      <p>Testimonials</p>
@@ -22,7 +33,7 @@ const Testimonials = () => {
       <span>David D.</span>
      </article>
     </div>
-   </div>
+   </div> */}
   </>
  )
 }

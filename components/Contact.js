@@ -1,11 +1,22 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '../styles/Home.module.css'
+import Image from 'next/image'
+import styles from '../styles/sections/Contact.module.css'
+import img from '../public/map.jpg'
 
 const Contact = () => {
  return (
   <>
-   <div className="overlay">
+  <div className={styles.bgWrap}>
+   <Image 
+    alt="Map"
+    src={img}
+    objectFit="cover"
+    layout="fill"
+    quality={45}
+   />
+  </div>
+   {/* <div className="overlay">
     <div className="hero-banner">
      <h1>Hit the Road with Us</h1>
      <h2>Our professional dispatchers have the contacts to keep you loaded with the best loads at the highest rates.</h2>
@@ -16,7 +27,7 @@ const Contact = () => {
       </Link>
      </button>
     </div>
-   </div>
+   </div> */}
   </>
  )
 }
