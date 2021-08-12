@@ -16,6 +16,12 @@ const Contact = () => {
     quality={45}
    />
   </div>
+
+  <div className={styles.bgText}>
+    <h1 className={styles.headLine}>Hit the Road with Us</h1>
+    <h2 className={styles.subText}>Our professional dispatchers have the contacts to keep you loaded with the best loads at the highest rates.</h2>
+    <button className={styles.heroBtn}><Link href="/contact">Contact Us</Link></button>
+   </div>
    {/* <div className="overlay">
     <div className="hero-banner">
      <h1>Hit the Road with Us</h1>
